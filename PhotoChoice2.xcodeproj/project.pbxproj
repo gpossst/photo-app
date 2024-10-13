@@ -7,18 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6802588E2BC325DA009332CB /* ListToggleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6802588D2BC325DA009332CB /* ListToggleViewModel.swift */; };
+		680258952BC37438009332CB /* ReemKufiFun-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 680258942BC37438009332CB /* ReemKufiFun-VariableFont_wght.ttf */; };
+		6824C0D32BC31F20009C1B38 /* ListToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6824C0D22BC31F20009C1B38 /* ListToggleView.swift */; };
+		682C2A722BBA2CB60039CC54 /* VideoCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682C2A712BBA2CB60039CC54 /* VideoCardView.swift */; };
+		682C2A742BBA30F10039CC54 /* BetterVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682C2A732BBA30F10039CC54 /* BetterVideo.swift */; };
+		682C2A762BBA37B20039CC54 /* BetterAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682C2A752BBA37B20039CC54 /* BetterAsset.swift */; };
+		6831F53A2B96ACF40036F296 /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6831F5392B96ACF40036F296 /* ButtonsView.swift */; };
+		6834E4DC2BA51C350055078F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6834E4DB2BA51C350055078F /* Extensions.swift */; };
+		684697D82BBB979D00B7C0D8 /* VideoThumbnailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684697D72BBB979D00B7C0D8 /* VideoThumbnailView.swift */; };
+		686B342C2BCC610E0095664D /* SupportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686B342B2BCC610E0095664D /* SupportView.swift */; };
+		686B34302BCC6EAE0095664D /* SupportViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686B342F2BCC6EAE0095664D /* SupportViewModel.swift */; };
+		686B34362BCCA9380095664D /* NativeAdCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686B34352BCCA9380095664D /* NativeAdCard.swift */; };
+		686B34392BCCAA940095664D /* AdmobSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 686B34382BCCAA940095664D /* AdmobSwiftUI */; };
+		686E5B902BC5B26D0022F7B6 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686E5B8F2BC5B26D0022F7B6 /* ContentViewModel.swift */; };
+		687DDCCC2BCACEF60044C662 /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687DDCCB2BCACEF60044C662 /* BannerView.swift */; };
+		687DDCCF2BCAD4730044C662 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 687DDCCE2BCAD4730044C662 /* GoogleMobileAds */; };
+		687DDCDB2BCAE4E30044C662 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 687DDCDA2BCAE4E30044C662 /* StoreKit.framework */; };
+		6888FCF92BBCEEE200413E05 /* OnboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6888FCF82BBCEEE200413E05 /* OnboardView.swift */; };
+		68B110222BBE28A2006D7F92 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B110212BBE28A2006D7F92 /* DatePickerView.swift */; };
+		68B3C60F2B98BCC400D96CCD /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B3C60E2B98BCC300D96CCD /* ImageView.swift */; };
+		68BCC2E42B9810FE006967A0 /* BetterUIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BCC2E32B9810FE006967A0 /* BetterUIImage.swift */; };
+		68E20D952BC7351C00CB971F /* GalleryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E20D942BC7351C00CB971F /* GalleryItemView.swift */; };
+		68E20D972BC73CC600CB971F /* GalleryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E20D962BC73CC600CB971F /* GalleryViewModel.swift */; };
 		68EAB3F42B96A04F00FAEAA0 /* PhotoChoice2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EAB3F32B96A04F00FAEAA0 /* PhotoChoice2App.swift */; };
 		68EAB3F62B96A04F00FAEAA0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EAB3F52B96A04F00FAEAA0 /* ContentView.swift */; };
 		68EAB3F82B96A05100FAEAA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68EAB3F72B96A05100FAEAA0 /* Assets.xcassets */; };
 		68EAB3FB2B96A05100FAEAA0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68EAB3FA2B96A05100FAEAA0 /* Preview Assets.xcassets */; };
+		68EAB4022B96A66B00FAEAA0 /* PhotosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EAB4012B96A66B00FAEAA0 /* PhotosModel.swift */; };
+		68ED3E592BBFA3C600BC02EE /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ED3E582BBFA3C600BC02EE /* InfoView.swift */; };
+		68F4C3222BC6F5020070CF8E /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F4C3212BC6F5020070CF8E /* GalleryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		68EAB3F02B96A04F00FAEAA0 /* PhotoChoice2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoChoice2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6802588D2BC325DA009332CB /* ListToggleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListToggleViewModel.swift; sourceTree = "<group>"; };
+		680258942BC37438009332CB /* ReemKufiFun-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ReemKufiFun-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		6824C0D22BC31F20009C1B38 /* ListToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListToggleView.swift; sourceTree = "<group>"; };
+		682C2A712BBA2CB60039CC54 /* VideoCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCardView.swift; sourceTree = "<group>"; };
+		682C2A732BBA30F10039CC54 /* BetterVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterVideo.swift; sourceTree = "<group>"; };
+		682C2A752BBA37B20039CC54 /* BetterAsset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterAsset.swift; sourceTree = "<group>"; };
+		6831F5392B96ACF40036F296 /* ButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
+		6834E4DB2BA51C350055078F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		684697D72BBB979D00B7C0D8 /* VideoThumbnailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoThumbnailView.swift; sourceTree = "<group>"; };
+		686B342B2BCC610E0095664D /* SupportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportView.swift; sourceTree = "<group>"; };
+		686B342F2BCC6EAE0095664D /* SupportViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportViewModel.swift; sourceTree = "<group>"; };
+		686B34352BCCA9380095664D /* NativeAdCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeAdCard.swift; sourceTree = "<group>"; };
+		686E5B8F2BC5B26D0022F7B6 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		687DDCCB2BCACEF60044C662 /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
+		687DDCDA2BCAE4E30044C662 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		687DDCDC2BCAE85E0044C662 /* NoAdsStoreKitConfiguration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = NoAdsStoreKitConfiguration.storekit; sourceTree = "<group>"; };
+		6888FCF82BBCEEE200413E05 /* OnboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardView.swift; sourceTree = "<group>"; };
+		68B110212BBE28A2006D7F92 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
+		68B3C60E2B98BCC300D96CCD /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		68B9B0392BB9A5E600363B99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68BCC2E32B9810FE006967A0 /* BetterUIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterUIImage.swift; sourceTree = "<group>"; };
+		68E20D942BC7351C00CB971F /* GalleryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryItemView.swift; sourceTree = "<group>"; };
+		68E20D962BC73CC600CB971F /* GalleryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewModel.swift; sourceTree = "<group>"; };
+		68EAB3F02B96A04F00FAEAA0 /* Clariphoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clariphoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68EAB3F32B96A04F00FAEAA0 /* PhotoChoice2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoChoice2App.swift; sourceTree = "<group>"; };
 		68EAB3F52B96A04F00FAEAA0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		68EAB3F72B96A05100FAEAA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68EAB3FA2B96A05100FAEAA0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		68EAB4012B96A66B00FAEAA0 /* PhotosModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosModel.swift; sourceTree = "<group>"; };
+		68ED3E582BBFA3C600BC02EE /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		68F4C3212BC6F5020070CF8E /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,24 +78,96 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				687DDCCF2BCAD4730044C662 /* GoogleMobileAds in Frameworks */,
+				686B34392BCCAA940095664D /* AdmobSwiftUI in Frameworks */,
+				687DDCDB2BCAE4E30044C662 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6802588F2BC3730A009332CB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				680258942BC37438009332CB /* ReemKufiFun-VariableFont_wght.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		6824C0D42BC31F29009C1B38 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6888FCF82BBCEEE200413E05 /* OnboardView.swift */,
+				6831F5392B96ACF40036F296 /* ButtonsView.swift */,
+				68B110212BBE28A2006D7F92 /* DatePickerView.swift */,
+				68ED3E582BBFA3C600BC02EE /* InfoView.swift */,
+				6824C0D22BC31F20009C1B38 /* ListToggleView.swift */,
+				68F4C3212BC6F5020070CF8E /* GalleryView.swift */,
+				68E20D942BC7351C00CB971F /* GalleryItemView.swift */,
+				687DDCCB2BCACEF60044C662 /* BannerView.swift */,
+				686B342B2BCC610E0095664D /* SupportView.swift */,
+				686B34352BCCA9380095664D /* NativeAdCard.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		682C2A702BBA2C7A0039CC54 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				682C2A712BBA2CB60039CC54 /* VideoCardView.swift */,
+				682C2A732BBA30F10039CC54 /* BetterVideo.swift */,
+				684697D72BBB979D00B7C0D8 /* VideoThumbnailView.swift */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		687C6EA52BA65E840090FCAE /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				68B3C60E2B98BCC300D96CCD /* ImageView.swift */,
+				68BCC2E32B9810FE006967A0 /* BetterUIImage.swift */,
+			);
+			path = Photo;
+			sourceTree = "<group>";
+		};
+		687DDCD92BCAE4E30044C662 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				687DDCDA2BCAE4E30044C662 /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68B110232BBE28B4006D7F92 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				686E5B8F2BC5B26D0022F7B6 /* ContentViewModel.swift */,
+				68EAB4012B96A66B00FAEAA0 /* PhotosModel.swift */,
+				6802588D2BC325DA009332CB /* ListToggleViewModel.swift */,
+				682C2A752BBA37B20039CC54 /* BetterAsset.swift */,
+				68E20D962BC73CC600CB971F /* GalleryViewModel.swift */,
+				686B342F2BCC6EAE0095664D /* SupportViewModel.swift */,
+				687DDCDC2BCAE85E0044C662 /* NoAdsStoreKitConfiguration.storekit */,
+				687C6EA52BA65E840090FCAE /* Photo */,
+				682C2A702BBA2C7A0039CC54 /* Video */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		68EAB3E72B96A04F00FAEAA0 = {
 			isa = PBXGroup;
 			children = (
 				68EAB3F22B96A04F00FAEAA0 /* PhotoChoice2 */,
 				68EAB3F12B96A04F00FAEAA0 /* Products */,
+				687DDCD92BCAE4E30044C662 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		68EAB3F12B96A04F00FAEAA0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				68EAB3F02B96A04F00FAEAA0 /* PhotoChoice2.app */,
+				68EAB3F02B96A04F00FAEAA0 /* Clariphoto.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -53,8 +177,13 @@
 			children = (
 				68EAB3F32B96A04F00FAEAA0 /* PhotoChoice2App.swift */,
 				68EAB3F52B96A04F00FAEAA0 /* ContentView.swift */,
-				68EAB3F72B96A05100FAEAA0 /* Assets.xcassets */,
+				6824C0D42BC31F29009C1B38 /* Views */,
+				68B110232BBE28B4006D7F92 /* Models */,
+				6834E4DB2BA51C350055078F /* Extensions.swift */,
+				68B9B0392BB9A5E600363B99 /* Info.plist */,
 				68EAB3F92B96A05100FAEAA0 /* Preview Content */,
+				68EAB3F72B96A05100FAEAA0 /* Assets.xcassets */,
+				6802588F2BC3730A009332CB /* Fonts */,
 			);
 			path = PhotoChoice2;
 			sourceTree = "<group>";
@@ -83,8 +212,12 @@
 			dependencies = (
 			);
 			name = PhotoChoice2;
+			packageProductDependencies = (
+				687DDCCE2BCAD4730044C662 /* GoogleMobileAds */,
+				686B34382BCCAA940095664D /* AdmobSwiftUI */,
+			);
 			productName = PhotoChoice2;
-			productReference = 68EAB3F02B96A04F00FAEAA0 /* PhotoChoice2.app */;
+			productReference = 68EAB3F02B96A04F00FAEAA0 /* Clariphoto.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -111,6 +244,10 @@
 				Base,
 			);
 			mainGroup = 68EAB3E72B96A04F00FAEAA0;
+			packageReferences = (
+				687DDCCD2BCAD4730044C662 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+				686B34372BCCAA940095664D /* XCRemoteSwiftPackageReference "AdmobSwiftUI" */,
+			);
 			productRefGroup = 68EAB3F12B96A04F00FAEAA0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +262,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				680258952BC37438009332CB /* ReemKufiFun-VariableFont_wght.ttf in Resources */,
 				68EAB3FB2B96A05100FAEAA0 /* Preview Assets.xcassets in Resources */,
 				68EAB3F82B96A05100FAEAA0 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +275,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68B3C60F2B98BCC400D96CCD /* ImageView.swift in Sources */,
+				68E20D972BC73CC600CB971F /* GalleryViewModel.swift in Sources */,
+				6824C0D32BC31F20009C1B38 /* ListToggleView.swift in Sources */,
+				686B34362BCCA9380095664D /* NativeAdCard.swift in Sources */,
+				68BCC2E42B9810FE006967A0 /* BetterUIImage.swift in Sources */,
+				686E5B902BC5B26D0022F7B6 /* ContentViewModel.swift in Sources */,
+				682C2A722BBA2CB60039CC54 /* VideoCardView.swift in Sources */,
 				68EAB3F62B96A04F00FAEAA0 /* ContentView.swift in Sources */,
+				6888FCF92BBCEEE200413E05 /* OnboardView.swift in Sources */,
+				68F4C3222BC6F5020070CF8E /* GalleryView.swift in Sources */,
+				682C2A762BBA37B20039CC54 /* BetterAsset.swift in Sources */,
+				68ED3E592BBFA3C600BC02EE /* InfoView.swift in Sources */,
 				68EAB3F42B96A04F00FAEAA0 /* PhotoChoice2App.swift in Sources */,
+				6831F53A2B96ACF40036F296 /* ButtonsView.swift in Sources */,
+				684697D82BBB979D00B7C0D8 /* VideoThumbnailView.swift in Sources */,
+				687DDCCC2BCACEF60044C662 /* BannerView.swift in Sources */,
+				68E20D952BC7351C00CB971F /* GalleryItemView.swift in Sources */,
+				68B110222BBE28A2006D7F92 /* DatePickerView.swift in Sources */,
+				68EAB4022B96A66B00FAEAA0 /* PhotosModel.swift in Sources */,
+				686B342C2BCC610E0095664D /* SupportView.swift in Sources */,
+				686B34302BCC6EAE0095664D /* SupportViewModel.swift in Sources */,
+				6834E4DC2BA51C350055078F /* Extensions.swift in Sources */,
+				6802588E2BC325DA009332CB /* ListToggleViewModel.swift in Sources */,
+				682C2A742BBA30F10039CC54 /* BetterVideo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,18 +435,20 @@
 				DEVELOPMENT_TEAM = RJPH93CTDJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhotoChoice2/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app needs access to your photo library in order to use the library accessing and editing capabilities of the app. None of that data is transmitted and we only edit your library when given explicit consent. You are able to change our access to this data at any time in your phone's settings.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 2.3.2;
 				PRODUCT_BUNDLE_IDENTIFIER = SwiftUI.PhotoChoice2;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Clariphoto;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -304,18 +466,20 @@
 				DEVELOPMENT_TEAM = RJPH93CTDJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhotoChoice2/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app needs access to your photo library in order to use the library accessing and editing capabilities of the app. None of that data is transmitted and we only edit your library when given explicit consent. You are able to change our access to this data at any time in your phone's settings.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 2.3.2;
 				PRODUCT_BUNDLE_IDENTIFIER = SwiftUI.PhotoChoice2;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Clariphoto;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -344,6 +508,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		686B34372BCCAA940095664D /* XCRemoteSwiftPackageReference "AdmobSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dearhui/AdmobSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.3;
+			};
+		};
+		687DDCCD2BCAD4730044C662 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		686B34382BCCAA940095664D /* AdmobSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 686B34372BCCAA940095664D /* XCRemoteSwiftPackageReference "AdmobSwiftUI" */;
+			productName = AdmobSwiftUI;
+		};
+		687DDCCE2BCAD4730044C662 /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 687DDCCD2BCAD4730044C662 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 68EAB3E82B96A04F00FAEAA0 /* Project object */;
 }
