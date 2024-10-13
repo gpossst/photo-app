@@ -17,6 +17,7 @@ struct OnboardView: View {
         return screenSize.width * CGFloat(Float(showing)) / 9.7
     }
     
+//    Onboarding
     var body: some View {
         ZStack {
             ZStack {
